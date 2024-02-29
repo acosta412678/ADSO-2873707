@@ -1,4 +1,4 @@
-Proceso Ejempñlo
+Proceso EJEMPLO5
 	Definir nombre_paciente Como Cadena;
 	Definir edad Como Entero;
 	Definir tipo_sangre Como Cadena;
