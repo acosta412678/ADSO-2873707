@@ -11,13 +11,14 @@ Proceso ejercicio24
         // Contar las cifras del número
         cifras <- 1; // Inicialmente asumimos que hay al menos una cifra
 		
-        Mientras numero >= 10 Hacer
+        si numero >= 10 Entonces
+			
             numero <- numero / 10;
             cifras <- cifras + 1;
-        Fin Mientras
+        Fin si
 		
         // Mostrar la cantidad de cifras
-        Escribir "El número tiene", cifras, "cifras.";
+        Escribir "El número tiene", cifras, " cifras.";
     Sino
         Escribir "Número fuera del rango permitido.";
     Fin Si

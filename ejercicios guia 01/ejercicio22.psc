@@ -1,6 +1,6 @@
 Proceso ejercicio22
 	// Declarar variables
-    Definir  numero1, numero2, numerotemp Como Real;
+    Definir  numero1, numero2, numeroTemp Como Real;
 	
     // Solicitar al usuario que ingrese dos números
     Escribir  "Ingrese el primer número:";
@@ -12,9 +12,9 @@ Proceso ejercicio22
     // Ordenar los números de mayor a menor
     Si numero1 < numero2 Entonces
         // Intercambiar los valores
-        numerotemp <- numero1;
+        numeroTemp <- numero1;
         numero1 <- numero2;
-        numero2 <- temp;
+        numero2 <- numeroTemp;
     Fin Si
 	
     // Mostrar los números ordenados
